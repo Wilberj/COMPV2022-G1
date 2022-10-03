@@ -1,0 +1,117 @@
+.FormContainer1, .FormContainer2, .FormContainer3, .InitContainer {
+    display: grid;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    grid-template-columns: calc(50% - 20px) calc(50% - 20px);
+    grid-gap: 10px;
+    margin-bottom: 17px;
+    border-radius: 8px;
+}
+
+.FormContainer2 {
+    grid-template-columns: calc(33% - 10px) calc(33% - 10px) calc(33% - 10px);
+}
+
+
+.FormContainer3 {
+    grid-template-columns: calc(33% - 10px) calc(33% - 10px) calc(33% - 10px);
+}
+
+.InitContainer {
+    grid-template-columns: calc(25% - 10px) calc(25% - 10px) calc(25% - 10px) calc(25% - 10px);
+}
+
+.btn_neutral, .btn_primary, .btn_secundary {
+    padding: 8px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    color: var(--color-TextPrimary);
+    background-color: var(--color-btnNeutral);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.btn_primary {
+    color: var(--color-TextPrimary);
+    background-color: var(--color-btnprimary);
+}
+
+.btn_secundary {
+    color: var(--color-TextPrimary);
+    background-color: var(--color-btnSecundary);
+
+}
+
+    .text_primary, .text_secundary, .text_neutral {
+        font-size: 16px;
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 2px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: var(--color-TextSecundary);
+        background-color: #f1f1f1;
+        border-radius: 4px;
+        border: none;
+        border-bottom: 2px solid #9ea7af;
+        box-sizing: border-box;
+        width: calc(100%);
+    }
+
+    .text_primary:hover {
+        border-bottom: 2px solid #3550ef;
+    }
+
+    .table1 {
+        width: 100%;
+        padding: 0;
+        box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        border-radius: 0.3cm;
+        border-collapse: collapse;
+    }
+
+.table1 th {
+    color: var(--color-TextSecundary);
+    border: none;
+    border-bottom: 1px solid #9ea7af;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+  .table1 td {
+     padding: 8px;
+     margin: 0;
+     text-align: left;
+     font-size: 15px;
+     text-transform: capitalize;
+   }
+
+.table1 tbody tr:nth-child(odd) {
+    background: #ebebeb;
+}
+
+.checkbox {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin: 8px;
+}
+
+.FormElement {
+    display: grid;
+    grid-template-rows: 40px 40px auto;
+    justify-items: center;
+}

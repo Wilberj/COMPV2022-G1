@@ -1,0 +1,128 @@
+    body {
+        display: grid;
+        margin: 0;
+        padding: 0;
+        grid-template-rows: 65px calc(100vh - 65px);
+        grid-template-columns: 230px calc(100% - 230px);
+        font-family: Arial;
+        }
+
+    main {
+        padding: 8px;
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        color: var(--color-font-main);
+    }
+
+    .AppMain {
+     
+    }
+
+    .header, .AppNav {
+        background-color: var(--color-Primary);
+        color: var(--color-TextPrimary);
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .AppNav {
+    justify-content: flex-end;
+    padding-right: 20px;
+    }
+
+    .AppAside {
+        background-color: var(--color-SecundaryVariant);
+        padding-top: 4px;
+        overflow-y:auto;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    nav ul li a {
+        color: var(--color-TextSecundary);
+        display: block;
+        text-decoration: none;
+        padding: 4px;
+    }
+
+     nav ul li a img {
+         padding: 4px;
+         padding-right: 12px;
+         width: 27px;
+         height: 27px;
+         filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(347deg) brightness(113%) contrast(101%);
+     }
+
+        nav ul li:hover .admin_cat {
+            background-color: #4a4a4a;
+            display: block;
+        }
+
+        nav ul li .admin_cat {
+            display: none;
+            width: auto;
+            z-index: 1000;
+        }
+
+    nav ul li .admin_cat li {
+        display: block;
+        overflow: hidden;
+    }
+
+    nav ul li .admin_cat li a {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Desing navegation */
+
+    .nav1 a {
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
+        text-decoration: none;
+        color: var(--color-TextPrimary);
+        font-size: 17px;
+        cursor: pointer;
+        transition: all 0.4s;
+        align-items: center;
+    }
+
+    .nav1 a:hover {
+        background-color: rgba(133, 133, 133, 0.5);
+    }
+
+.nav1 img {
+    padding: 4px;
+    padding-right: 12px;
+    width: 27px;
+    height: 27px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(347deg) brightness(113%) contrast(101%);
+}
+
+    .AppLine {
+        border-bottom: 1px solid rgba(133, 133, 133, 0.5);
+        margin-top: 4px;
+        margin-bottom: 4px;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
+
+    .item {
+        padding-left: 14px;
+        font-size: 14px;
+        font-weight: bold;
+        color: grey;
+    }
+

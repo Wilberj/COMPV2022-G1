@@ -1,0 +1,22 @@
+@import url('./layout.css');
+@import url('./ComponentForm.css');
+@import url('./Modal.css');
+
+:root {
+    /*Colores de aplicacion*/
+    --color-Primary: #262626;
+    --color-PrimaryVariant: #b7c2ce;
+    --color-Secundary: #b7c2ce;
+    --color-SecundaryVariant: #393939;
+    --color-Background: #f9fafc;
+    /*Colores de textos*/
+    --color-TextPrimary: #fff;
+    --color-TextSecundary: #000;
+    --main-font: sans-serif;
+    --main-font-two: 100% "DM Sans", sans-serif;
+    /*Colores btn*/
+    --color-btnprimary: #2fb50f;
+    --color-btnSecundary: #bf0000;
+    --color-btnNeutral: #262626;
+}
+
