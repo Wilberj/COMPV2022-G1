@@ -29,7 +29,19 @@ namespace CAPA_NEGOCIO.MODEL
         public int? FKPresentacion { get; set; }
     }
 
-
+    public class TblProductoBaja: EntityClass {
+     public int? PKProductoBaja { get; set; }
+     public int? FKEmpleado { get; set; }
+     public DateTime? FechaBaja { get; set; }
+    }
+ 
+    public class TblDetalleProductoBaja: EntityClass {
+     public int? PKDetalleProductoBaja { get; set; }
+     public int? FKProductoBodega { get; set; }
+     public int? DescripcionBaja { get; set; }
+     public int? Cantidad { get; set; }
+     public int? FKProductoBaja { get; set; }
+    }
 
     public class CatBodega : EntityClass
     {

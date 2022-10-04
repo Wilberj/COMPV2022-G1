@@ -5,19 +5,19 @@ import { AjaxTool, Render } from "../util.js";
 window.onload = async () => {
     Title("Modulo de Administracion de mercancias", "h1");
 
-    //AppMain.append(Render.Create({
-    //    class: "FormContainer2",
-    //    children: [{
-    //        tagName: "input",
-    //        type: "button",
-    //        className: "btn_primary",
-    //        value: "Nueva Compra",
-    //        onclick: async () => {
-    //            //Modal de formulario de compra...
-    //            window.location = "./CrearCompra";
-    //        }
-    //    }]
-    //}));
+    AppMain.append(Render.Create({
+        class: "FormContainer2",
+        children: [{
+            tagName: "input",
+            type: "button",
+            className: "btn_primary",
+            value: "Productos dados de baja",
+            onclick: async () => {
+                //Modal de formulario de compra...
+                window.location = "./ProductoBajas";
+            }
+        }]
+    }));
 
     const list_mercancias = await AjaxTool.PostResquest("../api/ModuloMercancias/GetMercancias");
 

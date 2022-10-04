@@ -388,4 +388,39 @@ class TblDetalleCompra {
     EstadoDetalleCompra = { type: "checkbox" };
 
 }
+
 export { TblDetalleCompra }
+
+class TblProductoBaja {
+    constructor(props) {
+        for (const prop in props) {
+            this[prop] = props[prop];
+        }
+    }
+    PKProductoBaja = { type: "number", primary: true };
+
+    FKEmpleado = { type: "number" };
+
+    FechaBaja = { type: "date" };
+
+}
+export { TblProductoBaja }
+
+class TblDetalleProductoBaja {
+    constructor(props) {
+        for (const prop in props) {
+            this[prop] = props[prop];
+        }
+    }
+    PKDetalleProductoBaja = { type: "number", primary: true };
+
+    FKProductoBodega = { type: "number" };
+
+    DescripcionBaja = { type: "number" };
+
+    Cantidad = { type: "number" };
+
+    FKProductoBaja = { type: "number" };
+
+}
+export { TblDetalleProductoBaja }
