@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CAPA_PRESENTACION",
+    "\\CAPA_PRESENTACION\\wwwroot"
   ],
-  "SelectedNode": "\\SystemMigranja2.sln",
+  "SelectedNode": "\\CAPA_PRESENTACION\\CAPA_PRESENTACION.csproj",
   "PreviewInSolutionExplorer": false
 }

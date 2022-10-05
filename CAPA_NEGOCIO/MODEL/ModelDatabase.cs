@@ -33,6 +33,25 @@ namespace CAPA_NEGOCIO.MODEL
      public int? PKProductoBaja { get; set; }
      public int? FKEmpleado { get; set; }
      public DateTime? FechaBaja { get; set; }
+        public List<TblDetalleProductoBaja>? TblDetalleProductoBajas { get; set; } 
+
+        public Object SaveBaja()
+        {
+            this.PKProductoBaja = (Int32)this.Save();
+
+            if (TblDetalleProductoBajas != null)
+            {
+                foreach (var i in TblDetalleProductoBajas)
+                {
+                    i.FKProductoBaja = this.PKProductoBaja;
+
+                    i.Save();
+                    
+                }
+            }
+
+            return true;
+        }
     }
  
     public class TblDetalleProductoBaja: EntityClass {

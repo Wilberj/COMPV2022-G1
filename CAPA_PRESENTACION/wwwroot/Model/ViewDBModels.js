@@ -82,9 +82,9 @@ class ViewMercancias {
         }
     }
 
-    PKProducto = { type: "number"};
+    PKProducto = { type: "number", hidden: true};
 
-    PKBodega = { type: "number" };
+    PKBodega = { type: "number", hidden: true};
 
     UnidadesExistencias = { type: "number" };
 
@@ -94,11 +94,11 @@ class ViewMercancias {
 
     ExistenciasMinimas = { type: "number" };
 
-    FKMarca = { type: "number" };
+    FKMarca = { type: "number", hidden: true };
 
-    FKUnidadMedida = { type: "number" };
+    FKUnidadMedida = { type: "number", hidden: true};
 
-    FKPresentacion = { type: "number" };
+    FKPresentacion = { type: "number", hidden: true };
 
     PrecioVenta = { type: "number" };
 

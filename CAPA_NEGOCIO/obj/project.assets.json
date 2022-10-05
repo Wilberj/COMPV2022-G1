@@ -2589,11 +2589,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JUNIOR\\Desktop\\Update project 3.1\\SystemMigranja2\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj",
+      "projectUniqueName": "C:\\Users\\JUNIOR\\source\\repos\\COMPV2022-G1\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj",
       "projectName": "CAPA_NEGOCIO",
-      "projectPath": "C:\\Users\\JUNIOR\\Desktop\\Update project 3.1\\SystemMigranja2\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj",
+      "projectPath": "C:\\Users\\JUNIOR\\source\\repos\\COMPV2022-G1\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj",
       "packagesPath": "C:\\Users\\JUNIOR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JUNIOR\\Desktop\\Update project 3.1\\SystemMigranja2\\CAPA_NEGOCIO\\obj\\",
+      "outputPath": "C:\\Users\\JUNIOR\\source\\repos\\COMPV2022-G1\\CAPA_NEGOCIO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2615,8 +2615,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\JUNIOR\\Desktop\\Update project 3.1\\SystemMigranja2\\CAPA_DATOS\\CAPA_DATOS.csproj": {
-              "projectPath": "C:\\Users\\JUNIOR\\Desktop\\Update project 3.1\\SystemMigranja2\\CAPA_DATOS\\CAPA_DATOS.csproj"
+            "C:\\Users\\JUNIOR\\source\\repos\\COMPV2022-G1\\CAPA_DATOS\\CAPA_DATOS.csproj": {
+              "projectPath": "C:\\Users\\JUNIOR\\source\\repos\\COMPV2022-G1\\CAPA_DATOS\\CAPA_DATOS.csproj"
             }
           }
         }

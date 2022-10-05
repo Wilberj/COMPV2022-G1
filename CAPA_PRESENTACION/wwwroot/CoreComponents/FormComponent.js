@@ -19,6 +19,7 @@ class FormComponent extends HTMLElement {
     connectedCallBack() { }
 
     DrawFormCompnent = async (ObjectF = {}) => {
+        this.FormContainer.innerHTML = "";
         for (const prop in this.Model) {
 
             if (this.Model[prop] != null

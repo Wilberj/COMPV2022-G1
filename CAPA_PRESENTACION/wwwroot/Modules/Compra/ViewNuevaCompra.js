@@ -69,7 +69,6 @@ window.onload = async () => {
                     DetalleCompra.splice(DetalleCompra.indexOf(details), 1);
                     StockDetalle.splice(StockDetalle.indexOf(details), 1);
 
-                    table_detalle.DrawTableComponent();
 
                 }
             }
@@ -99,9 +98,12 @@ window.onload = async () => {
                 },
                 async (stock) => {
                     StockDetalle.push(stock);
+                    NuevaCompra.SubTotal = 0;
+                    StockDetalle.forEach(x => {
+                        NuevaCompra.SubTotal += x.SubTotal 
+                    })
 
-                    //NuevaCompra.SubTotal = "8";
-                    //FormCompra.FormChange("SubTotal", 8);
+                    FormCompra.DrawFormCompnent(NuevaCompra);
                 }
                 );
 
